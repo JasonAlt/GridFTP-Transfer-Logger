@@ -1,0 +1,8 @@
+Thu Jan  8 10:51:39 CST 2015 : Version 915
+	- Update for GT6: added 'retrans' to the caught function variable list.
+	  We replace this will NULL so that our syslog parser on twinkie will not
+	  barf.
+
+Tue Aug 12 10:20:15 CDT 2014 : Version 858
+	- Wrap file name with quotes to protect spaces
+	- Added SHARE=[0|1] and SHAREE=[none|<sharee>]
